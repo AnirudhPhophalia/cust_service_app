@@ -10,7 +10,7 @@ import requests
 fake = Faker('en_IN')  # Use 'en_IN' locale for Indian data
 api_url = "http://127.0.0.1:5000"
 
-# Define known city latitudes and longitudes within India
+#city latitudes and longitudes within India
 city_coordinates = [
     (28.6129, 77.2295),  # India Gate, Delhi
     (18.9220, 72.8347),  # Gateway of India, Mumbai
